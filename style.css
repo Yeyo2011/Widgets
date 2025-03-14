@@ -1,0 +1,38 @@
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif; /* Familia de fuentes */
+    font-size: 22px; /* El tamaño de la fuente principal en el tag <p></p> */
+    background-color: #000000; /* El color del fondo de la página web */
+    color: #ffffff; /* El color del texto*/ 
+    padding: 25px;
+    width: 80%; /* Ajusta según necesidad */
+    margin: 0 auto; /* Centra horizontalmente */
+    text-align: center; /* Si quieres centrar el texto dentro del body */
+    background-image: url("https://images.unsplash.com/photo-1663970206579-c157cba7edda?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"); /* Ruta de la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-size: cover; /* Ajusta la imagen al tamaño de la pantalla */
+    background-position: center; /* Centra la imagen */
+}
+@keyframes color-change {
+    0% {
+      color: blue;
+    }
+  
+    50% {
+      color: red;
+    }
+  
+    100% {
+      color: blue;
+    }
+}
+
+h1:hover {
+    animation: color-change 3s infinite;
+
+}
+.widget-container {
+    background-color: rgb(255, 255, 255); /* Fondito semitransparente */
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+  }
